@@ -1,5 +1,5 @@
 # Code from schalto/ it can recognize whether we are in a leap year or not
-def kontrolle_schaltjahr(jahr):
+def kontrolle_schaltjahr(year):
     return year % 4 == 0 and (year % 100 != 0 or year % 400 ==0)
 
 Loop = True
